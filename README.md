@@ -1,4 +1,4 @@
-# Steam Games Text Analytics: Unsupervised Learning
+# Steam Games Text Analytics
 
 Este projeto aplica técnicas de **Processamento de Linguagem Natural (NLP)** e **Aprendizado Não Supervisionado (Clustering)** para investigar relações semânticas entre descrições de jogos da Steam e seus respectivos gêneros.
 
