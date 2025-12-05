@@ -21,7 +21,6 @@ O projeto segue um pipeline clássico de Ciência de Dados para textos, conforme
 1.  **Pré-processamento de Texto**: Limpeza, tokenização e normalização das descrições dos jogos.
 2.  **Extração de Características (Feature Extraction)**:
     * Criação da matriz **TF-IDF** para representar a importância dos termos.
-    * *(Opcional/Extra)* Uso de **Embeddings** com modelos de linguagem (SentenceTransformers) para captura semântica.
 3.  **Redução de Dimensionalidade**:
     * Aplicação de **PCA** (Principal Component Analysis) para reduzir o ruído e a complexidade dos dados antes do agrupamento.
 4.  **Agrupamento (Clustering)**:
