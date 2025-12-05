@@ -14,7 +14,7 @@ O conjunto de dados utilizado provém de datasets públicos da Steam e contém i
 Informações que estão presentes no conjunto de dados e não seram utilizadas nessa pesquisa.
 * **Outros atributos**: Preço, avaliações positivas/negativas, tempo médio de jogo.
 
-## Metodologia (Pipeline)
+## Metodologia 
 
 O projeto segue um pipeline clássico de Ciência de Dados para textos, conforme as etapas abaixo:
 
@@ -30,7 +30,7 @@ O projeto segue um pipeline clássico de Ciência de Dados para textos, conforme
     * Interpretação dos clusters formados.
     * Verificação da distribuição de gêneros dentro de cada grupo para validar a hipótese de similaridade textual.
 
-## 🛠 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Python 3**
 * **Pandas & NumPy**: Manipulação e análise de dados.
@@ -39,10 +39,10 @@ O projeto segue um pipeline clássico de Ciência de Dados para textos, conforme
 * **Matplotlib / Seaborn**: Visualização de dados.
 * **SentenceTransformers (Hugging Face)**: Geração de embeddings (etapa avançada).
 
-## 📊 Resultados Esperados
+## Resultados Esperados
 
 O projeto busca responder às seguintes perguntas de negócio/pesquisa:
 * Há uma diferença clara nas distribuições de gêneros entre os grupos formados apenas pelo texto? 
-* [cite_start]As descrições dos jogos são preditores confiáveis de seus gêneros? 
+* As descrições dos jogos são preditores confiáveis de seus gêneros? 
 
 Este projeto foi desenvolvido na disciplina de Ciência de Dados da Universidade Federal do Espírito Santo (UFES), ministrada pelo Prof. Giovanni Comarela.
